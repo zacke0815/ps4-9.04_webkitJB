@@ -1,4 +1,4 @@
-/* Copyright (C) 2023 anonymous
+/* Copyright (C) 2023-2024 anonymous
 
 This file is part of PSFree.
 
@@ -33,7 +33,7 @@ export const ps4_8_03 = 1;
 export const ps4_9_00 = 2;
 
 // version 9.xx is for ps5 1.xx-5.xx as well
-export const ps5_5_00 = ps4_9_00;
+export const ps4_9_04 = ps4_9_00;
 
 // this version for 6.50-6.72
 export const ps4_6_50 = 3;
@@ -57,4 +57,4 @@ export function set_target(value) {
     target = value;
 }
 
-export let target = ps4_9_00;
+export let target = ps4_9_04;
